@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\migrations\\20230304102316_initial create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\migrations\\20230304102316_initial create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\migrations\\authdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\migrations\\authdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\areas\\identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\areas\\identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\mainrepo\\uitcanteenrepo\\authsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAuwLwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:30:32.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "AuthSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T15:30:15.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Migrations\\AuthDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Migrations\\AuthDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Migrations\\AuthDbContextModelSnapshot.cs",
+              "RelativeToolTip": "AuthSystem\\Migrations\\AuthDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:08:48.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20230304102316_Initial Create.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Migrations\\20230304102316_Initial Create.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Migrations\\20230304102316_Initial Create.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Migrations\\20230304102316_Initial Create.cs",
+              "RelativeToolTip": "AuthSystem\\Migrations\\20230304102316_Initial Create.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAEcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:08:47.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AuthSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:02:47.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:54:05.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:53:59.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AuthSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T14:52:52.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UITCanteenRepo\\AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T14:49:44.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

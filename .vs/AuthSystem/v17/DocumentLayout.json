@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\areas\\identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\areas\\identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|e:\\university\\vi oosad\\repo\\testauthentication\\asp.net-core-mvc-identity---complete-user-authentication-system-main\\authsystem\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3732C449-FF22-4B0C-80B1-A62FB71FCF76}|AuthSystem\\AuthSystem.csproj|solutionrelative:authsystem\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuthSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T14:43:01.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AuthSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T14:41:08.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "AuthSystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T14:39:41.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AuthSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T14:38:21.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Program.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Program.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Program.cs",
+              "RelativeToolTip": "AuthSystem\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:40:19.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AuthSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:40:06.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "AuthSystem\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:39:52.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\TestAuthentication\\Asp.Net-Core-MVC-Identity---Complete-User-Authentication-System-main\\AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "AuthSystem\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:39:46.091Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
