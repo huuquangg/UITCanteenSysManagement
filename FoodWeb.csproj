@@ -306,8 +306,8 @@
     <Content Include="Content\assets\img\hero\Main-ban-ghe.jpg" />
     <Content Include="Content\assets\img\hero\Nha-an-UIT-chinh.jpg" />
     <Content Include="Content\assets\img\hero\phong-gv.jpg" />
-    <Content Include="Content\assets\img\hero\sliderimage1.jpg" />
     <Content Include="Content\assets\img\hero\hero-home-1-img-2.jpg" />
+    <Content Include="Content\assets\img\hero\so-do-duongdi.png" />
     <Content Include="Content\assets\img\icon\cms\icon1.png" />
     <Content Include="Content\assets\img\icon\cms\icon2.png" />
     <Content Include="Content\assets\img\icon\cms\icon3.png" />
@@ -331,6 +331,9 @@
     <Content Include="Content\assets\img\logo\banner_uit.png" />
     <Content Include="Content\assets\img\logo\logo.png" />
     <Content Include="Content\assets\img\logo\logo2.png" />
+    <Content Include="Content\assets\img\memicon\icon-mem1.jpg" />
+    <Content Include="Content\assets\img\memicon\icon-mem2.jpg" />
+    <Content Include="Content\assets\img\memicon\icon-mem3.png" />
     <Content Include="Content\assets\img\newsletter\newsletter-bg.jpg" />
     <Content Include="Content\assets\img\product\category\category-home-1-img-1.jpg" />
     <Content Include="Content\assets\img\product\category\category-home-1-img-10.jpg" />

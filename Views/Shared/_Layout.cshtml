@@ -130,9 +130,8 @@
                                 }
                                 else
                                 {
+                                    ViewBag.Message = "Bạn chưa đăng nhập";
                                     <li class="btn btn--medium btn--radius btn--black-hover-green font--bold text-uppercase">
-                                        @*class="btn btn--large btn--radius btn--black btn--black-hover-green font--bold text-uppercase"*@
-                                        @*class="header__nav-item pos-relative header__nav-link"*@
                                         @Html.ActionLink("Đăng nhập", "Login", "User")
                                     </li>
                                 }
@@ -293,7 +292,8 @@
 
 
         <div class="offcanvas-overlay"></div>
-    </header>  <!-- :::::: End Header Section ::::::  -->
+    </header>
+    <!-- :::::: End Header Section ::::::  -->
 
     <div class="container body-content">
         @RenderBody()
@@ -350,7 +350,8 @@
                     </div>
                 </div> <!-- End Footer Bottom Section -->
             </div>
-        </footer> <!-- ::::::  End  Footer ::::::  -->
+        </footer>
+        <!-- ::::::  End  Footer ::::::  -->
 
 
 

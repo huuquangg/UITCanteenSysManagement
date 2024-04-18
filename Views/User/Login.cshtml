@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-content m-b-40">
-                        <h5 class="section-content__title text-center">Login</h5>
+                        <h5 class="section-content__title text-center">Đăng nhập</h5>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -21,8 +21,13 @@
                         @*<h5 class="sidebar__title">Login</h5>*@
                         <div class="login-register-form">
                             <form>
+
                                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                                <div class="text-danger">@ViewBag.Message</div>
+                                <div class="text-danger">
+                                    @ViewBag.Message
+                                    Response.Write("");
+                                    @ViewBag.LoginState
+                                </div>
                                 <div class="form-box__single-group">
                                     @Html.LabelFor(model => model.Email, htmlAttributes: new { @for = "form-username" })
                                     @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @id = "form-username" } })
@@ -39,19 +44,19 @@
                                 <div class="d-flex justify-content-between flex-wrap m-tb-20">
                                     <label for="account-remember">
                                         <input type="checkbox" name="account-remember" id="account-remember">
-                                        <span>Remember me</span>
+                                        <span>Ghi nhớ đăng nhập</span>
                                     </label>
-                                    <a class="link--gray" href="">Forgot Password?</a>
+                                    <a class="link--gray" href="">Quên mật khẩu?</a>
                                 </div>
-                                <button class="btn btn--box btn--medium btn--radius btn--black btn--black-hover-green btn--uppercase font--semi-bold" type="submit">LOGIN</button>
+                                <button class="btn btn--box btn--medium btn--radius btn--black btn--black-hover-green btn--uppercase font--semi-bold" type="submit">Đăng nhập</button>
                             </form>
                         </div>
                         <br>
-                        <a class="link--gray" href="@Url.Action("Signup","User")">If you does not have account? Register Account Here.</a>
+                        <a class="link--gray" href="@Url.Action("Signup","User")">Bạn chưa có tài khoản? Đăng ký liền tại đây.</a>
                     </div>
-                    
+
                 </div>
-               
+
             </div>
         </div>
     </main>

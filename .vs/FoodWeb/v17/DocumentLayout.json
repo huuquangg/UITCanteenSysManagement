@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\",
+  "WorkspaceRootPath": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\mainrepo\\uit-canteen-mainrepo\\views\\homepagetest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\homepagetest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\views\\information\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\information\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\views\\information\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\information\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\views\\information\\messagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\information\\messagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T10:03:05.884Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,52 +56,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InformationController.cs",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Controllers\\InformationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InformationController.cs",
-              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Controllers\\InformationController.cs",
-              "RelativeToolTip": "Controllers\\InformationController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBCwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T14:31:14.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\HomePageTest\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\HomePageTest\\Index.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\HomePageTest\\Index.cshtml",
-              "RelativeToolTip": "Views\\HomePageTest\\Index.cshtml",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAAAD0AAAAiAAAA",
+              "DocumentIndex": 1,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Information\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Information\\ContactUs.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Information\\ContactUs.cshtml",
+              "RelativeToolTip": "Views\\Information\\ContactUs.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T15:52:18.62Z",
+              "WhenOpened": "2024-04-18T16:09:46.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAANsAAABYAAAA",
+              "DocumentIndex": 2,
+              "Title": "MessageList.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Information\\MessageList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Information\\MessageList.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Information\\MessageList.cshtml",
+              "RelativeToolTip": "Views\\Information\\MessageList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T10:03:05.884Z"
+              "WhenOpened": "2024-04-18T16:09:39.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T15:18:34.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Information\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Information\\AboutUs.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Information\\AboutUs.cshtml",
-              "RelativeToolTip": "Views\\Information\\AboutUs.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAACVAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAawD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T09:54:53.808Z"
+              "WhenOpened": "2024-04-18T14:29:11.571Z",
+              "EditorCaption": ""
             }
           ]
         }
