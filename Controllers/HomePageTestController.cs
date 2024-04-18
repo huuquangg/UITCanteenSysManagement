@@ -15,8 +15,6 @@ namespace FoodWeb.Controllers
         {
                 List<Products> products = db.Products.ToList<Products>();
                 return View(products);
-           
-          
         }
     }
 }

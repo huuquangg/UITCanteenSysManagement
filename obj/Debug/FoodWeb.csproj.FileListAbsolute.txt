@@ -90,3 +90,5 @@ C:\Users\Zaryab\source\repos\FoodWeb\FoodWeb\obj\Debug\FoodWeb.Migrations.Contac
 C:\Users\Zaryab\source\repos\FoodWeb\FoodWeb\obj\Debug\FoodWeb.Migrations.BlogTable.resources
 E:\University\VI OOSAD\repo\Food-Web-ASP.Net-MVC-master\obj\Debug\FoodWeb.dll
 E:\University\VI OOSAD\repo\Food-Web-ASP.Net-MVC-master\obj\Debug\FoodWeb.pdb
+E:\University\VI OOSAD\mainRepo\UIT-Canteen-mainrepo\obj\Debug\FoodWeb.dll
+E:\University\VI OOSAD\mainRepo\UIT-Canteen-mainrepo\obj\Debug\FoodWeb.pdb

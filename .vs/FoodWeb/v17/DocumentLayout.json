@@ -1,45 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\",
+  "WorkspaceRootPath": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\views\\shared\\_layoutadminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\shared\\_layoutadminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\views\\homepagetest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\mainrepo\\uit-canteen-mainrepo\\views\\homepagetest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\homepagetest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\content\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:content\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\food-web-asp.net-mvc-master\\content\\assets\\css\\main.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:content\\assets\\css\\main.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\views\\information\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\views\\information\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\information\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -50,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,133 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "Views\\User\\Login.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA8AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T15:53:17.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Signup.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\User\\Signup.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Signup.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\User\\Signup.cshtml",
-              "RelativeToolTip": "Views\\User\\Signup.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T15:53:14.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T15:53:12.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutAdminPage.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\Shared\\_LayoutAdminPage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdminPage.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\Shared\\_LayoutAdminPage.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutAdminPage.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T15:52:48.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "InformationController.cs",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Controllers\\InformationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InformationController.cs",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Controllers\\InformationController.cs",
+              "RelativeToolTip": "Controllers\\InformationController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBCwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T14:31:14.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\HomePageTest\\Index.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\HomePageTest\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\HomePageTest\\Index.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\HomePageTest\\Index.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\HomePageTest\\Index.cshtml",
               "RelativeToolTip": "Views\\HomePageTest\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAABGAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAD0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-16T15:52:18.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T15:51:54.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "main.min.css",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Content\\assets\\css\\main.min.css",
-              "RelativeDocumentMoniker": "Content\\assets\\css\\main.min.css",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Content\\assets\\css\\main.min.css",
-              "RelativeToolTip": "Content\\assets\\css\\main.min.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACQDAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-16T15:17:28.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.css",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Content\\assets\\css\\main.css",
-              "RelativeDocumentMoniker": "Content\\assets\\css\\main.css",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Content\\assets\\css\\main.css",
-              "RelativeToolTip": "Content\\assets\\css\\main.css",
-              "ViewState": "AQIAAJUNAAAAAAAAAAAowKQNAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-16T15:01:49.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAALAAAABzAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAANsAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T10:03:05.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T10:03:05.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\Information\\AboutUs.cshtml",
+              "DocumentMoniker": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Information\\AboutUs.cshtml",
               "RelativeDocumentMoniker": "Views\\Information\\AboutUs.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\Food-Web-ASP.Net-MVC-master\\Views\\Information\\AboutUs.cshtml",
+              "ToolTip": "E:\\University\\VI OOSAD\\mainRepo\\UIT-Canteen-mainrepo\\Views\\Information\\AboutUs.cshtml",
               "RelativeToolTip": "Views\\Information\\AboutUs.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAACVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T09:54:53.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:54:53.808Z"
             }
           ]
         }
