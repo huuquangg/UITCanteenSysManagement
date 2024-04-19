@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Views",
+    "\\Views\\HomePageTest"
   ],
-  "SelectedNode": "\\FoodWeb.sln",
+  "SelectedNode": "\\Views\\HomePageTest\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

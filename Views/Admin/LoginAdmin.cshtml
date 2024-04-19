@@ -44,11 +44,11 @@
 
         <div class="login-box">
             <div class="login-logo">
-                <a href="#"><b>Admin</b>LTE</a>
+                <a href="#"><b>Admin</b>UIT</a>
 
             </div><!-- /.login-logo -->
             <div class="login-box-body">
-                <p class="login-box-msg">Login to start your session</p>
+                <p class="login-box-msg">Đăng nhập</p>
                 <h2>@ViewBag.Message</h2>
                 <form>
                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -64,7 +64,7 @@
                         <div class="col-xs-8">
                             <div class="checkbox icheck">
                                 <label>
-                                    <input type="checkbox"> Remember Me
+                                    <input type="checkbox"> Ghi nhớ tôi
                                 </label>
                             </div>
                         </div><!-- /.col -->
@@ -75,11 +75,8 @@
                 </form>
 
                 <div class="social-auth-links text-center">
-                    <p>- OR -</p>
-                    <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using Facebook</a>
-                    <a href="#" class="btn btn-block btn-social btn-google-plus btn-flat"><i class="fa fa-google-plus"></i> Sign in using Google+</a>
                     <br />
-                    <a class="btn btn-block btn-social btn-google-plus btn-flat" href="@Url.Action("Index","HomePageTest")"><i></i><p class="fa fa-home" style="text-align:center;margin-top:10px;font-size:20px; font-weight:bold;"> Food Home</p></a>
+                    <a class="btn btn-block btn-social btn-facebook btn-flat" href="@Url.Action("Index","HomePageTest")"><i></i><p class="fa fa-home" style="text-align:center;margin-top:10px;font-size:20px; font-weight:bold;"> Trang Chủ</p></a>
                 </div><!-- /.social-auth-links -->
             </div><!-- /.login-box-body -->
 

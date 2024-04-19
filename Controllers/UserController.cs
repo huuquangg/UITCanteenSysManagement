@@ -62,11 +62,9 @@ namespace FoodWeb.Controllers
         [HttpGet]
         public ActionResult Login()
         {
-            ViewBag.LoginState = 0;
             var userInCookie = Request.Cookies["UserInfo"];
             if (userInCookie != null)
             {
-                ViewBag.LoginState = 1;
                 return RedirectToAction("Index", "Products");
             }
             else
@@ -89,6 +87,7 @@ namespace FoodWeb.Controllers
         {
             var data = db.SignupLogin.Where(s => s.Email.Equals(model.Email) && s.Password.Equals(model.Password)).ToList();
             ViewBag.LoginState = 0;
+
             if (data.Count() > 0)
             {
                 Session["uid"] = data.FirstOrDefault().userid;
@@ -98,7 +97,6 @@ namespace FoodWeb.Controllers
                 cooskie.Values["Email"] = Convert.ToString(data.FirstOrDefault().Email);
                 cooskie.Expires = DateTime.Now.AddMonths(1);
                 Response.Cookies.Add(cooskie);
-                ViewBag.LoginState = 1;
                 return RedirectToAction("Index", "Products");
             }
             else

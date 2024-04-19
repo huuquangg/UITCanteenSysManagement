@@ -33,13 +33,9 @@
     <div class="wrapper">
         <header class="main-header">
             <!-- Logo -->
-            <b class="logo">@Html.ActionLink("Control Panel", "Index", "Admin")</b>
             <!-- Header Navbar: style can be found in header.less -->
+            <!-- Sidebar toggle button-->
             <nav class="navbar navbar-static-top" role="navigation">
-                <!-- Sidebar toggle button-->
-                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-                    <span class="sr-only">Toggle navigation</span>
-                </a>
                 @{
                     var adminInCookie = Request.Cookies["AdminInfo"];
                 }
@@ -48,137 +44,147 @@
                     string email = string.Empty;
                     email = adminInCookie["Email"].ToString();
                     <span style="font-size: 17px; font-weight: bold; margin-left: 50px; color: #fff;">@email</span>
-                    <a href="@Url.Action("Index","HomePageTest")" style="float:right; font-size:18px; font-weight: bold; margin-right: 20px; margin-top: 12px;">Food Home</a>
+                    <a href="@Url.Action("Index","HomePageTest")" style="float:right; font-size:18px; font-weight: bold; margin-right: 20px; margin-top: 12px;">Trang chủ</a>
                     <a href="@Url.Action("LogoutAdmin","Admin")" style="float:right; font-size:18px; font-weight: bold; margin-right: 50px; margin-top: 12px;">Logout</a>
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                    <b class="logo">@Html.ActionLink("Control Panel", "Index", "Admin")</b>
+
                 }
                 else
                 {
-                    <a href="@Url.Action("Index","HomePageTest")" style="float:right; font-size:18px; font-weight: bold; margin-right: 20px; margin-top: 12px;">Food Home</a>
+                    <a href="@Url.Action("Index","HomePageTest")" style="float:right; font-size:18px; font-weight: bold; margin-right: 20px; margin-top: 12px;">Trang chủ</a>
                     <a href="@Url.Action("LoginAdmin","Admin")" style="float:right; font-size:18px;font-weight: bold; margin-right: 50px; margin-top: 12px;">Login</a>
                 }
 
             </nav>
         </header>
         <!-- Left side column. contains the logo and sidebar -->
-        <aside class="main-sidebar">
-            <!-- sidebar: style can be found in sidebar.less -->
-            <section class="sidebar">
-                <!-- Sidebar user panel -->
-                <div class="user-panel">
-                    <div class="pull-left image">
-                        <img src="~/Content/dist/img/user.png" class="img-circle" alt="User Image" />
+        @if (adminInCookie != null)
+        {
+
+            <aside class="main-sidebar">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <!-- Sidebar user panel -->
+                    <div class="user-panel">
+                        <div class="pull-left image">
+                            <img src="~/Content/dist/img/user.png" class="img-circle" alt="User Image" />
+                        </div>
+                        <div class="pull-left info">
+                            <p>M. Zaryab Rafique</p>
+
+                            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                        </div>
                     </div>
-                    <div class="pull-left info">
-                        <p>M. Zaryab Rafique</p>
 
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-                    </div>
-                </div>
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <ul class="sidebar-menu">
+                        <li class="header">MAIN NAVIGATION</li>
+                        <li class="active treeview">
+                            <a href="@Url.Action("Index","Admin")">
+                                <i class="fa fa-home"></i> <span>Home</span>
+                            </a>
 
-                <!-- sidebar menu: : style can be found in sidebar.less -->
-                <ul class="sidebar-menu">
-                    <li class="header">MAIN NAVIGATION</li>
-                    <li class="active treeview">
-                        <a href="@Url.Action("Index","Admin")">
-                            <i class="fa fa-home"></i> <span>Home</span>
-                        </a>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-table"></i>
+                                <span>Products</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="/Products/ViewProductsAdmin"><i class="fa fa-circle-o"></i> List</a></li>
+                                <li><a href="/Products/CreateNewProduct"><i class="fa fa-circle-o"></i> New Product</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-laptop"></i>
+                                <span>Orders</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="/Admin/ListOfOrders"><i class="fa fa-circle-o"></i> List</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-edit"></i> <span>Invoices</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="/Admin/ListOfInvoices"><i class="fa fa-circle-o"></i> List</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-table"></i> <span>Information</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="/Information/MessageList"><i class="fa fa-circle-o"></i> Messages</a></li>
+                                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Blog</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="pages/calendar.html">
+                                <i class="fa fa-calendar"></i> <span>Calendar</span>
+                                <small class="label pull-right bg-red">3</small>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/mailbox/mailbox.html">
+                                <i class="fa fa-envelope"></i> <span>Mailbox</span>
+                                <small class="label pull-right bg-yellow">12</small>
+                            </a>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-folder"></i> <span>Examples</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                                <li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
+                                <li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
+                                <li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+                                <li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+                                <li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+                                <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-share"></i> <span>Multilevel</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                                <li>
+                                    <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-angle-left pull-right"></i></a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
+                                            <ul class="treeview-menu">
+                                                <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                                <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                            </ul>
+                        </li>
 
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-table"></i>
-                            <span>Products</span>
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="/Products/ViewProductsAdmin"><i class="fa fa-circle-o"></i> List</a></li>
-                            <li><a href="/Products/CreateNewProduct"><i class="fa fa-circle-o"></i> New Product</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-laptop"></i>
-                            <span>Orders</span>
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="/Admin/ListOfOrders"><i class="fa fa-circle-o"></i> List</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-edit"></i> <span>Invoices</span>
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="/Admin/ListOfInvoices"><i class="fa fa-circle-o"></i> List</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-table"></i> <span>Information</span>
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="/Information/MessageList"><i class="fa fa-circle-o"></i> Messages</a></li>
-                            <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Blog</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="pages/calendar.html">
-                            <i class="fa fa-calendar"></i> <span>Calendar</span>
-                            <small class="label pull-right bg-red">3</small>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="pages/mailbox/mailbox.html">
-                            <i class="fa fa-envelope"></i> <span>Mailbox</span>
-                            <small class="label pull-right bg-yellow">12</small>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-folder"></i> <span>Examples</span>
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-                            <li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-                            <li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-                            <li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-                            <li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-                            <li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-                            <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-share"></i> <span>Multilevel</span>
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-angle-left pull-right"></i></a>
-                                <ul class="treeview-menu">
-                                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
-                                        <ul class="treeview-menu">
-                                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-                        </ul>
-                    </li>
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+        }
 
-                </ul>
-            </section>
-            <!-- /.sidebar -->
-        </aside>
 
     </div>
 
