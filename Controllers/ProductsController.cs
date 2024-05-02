@@ -15,9 +15,9 @@ namespace FoodWeb.Controllers
         // GET: Products
         public ActionResult Index()
         {
-                List<Products> products = db.Products.ToList<Products>();
-                return View(products);
-           
+            List<Products> products = db.Products.ToList<Products>();
+            return View(products);
+
         }
         [HttpGet]
         public ActionResult Delete(int id)
@@ -47,20 +47,20 @@ namespace FoodWeb.Controllers
                     return RedirectToAction("LoginAdmin", "Admin");
                 }
             }
-           
+
         }
         [HttpPost]
-        public ActionResult CreateNewProduct(HttpPostedFileBase file , Products products)
+        public ActionResult CreateNewProduct(HttpPostedFileBase file, Products products)
         {
-            if(file != null && file.ContentLength > 0)
+            if (file != null && file.ContentLength > 0)
                 try
                 {
                     string path = Path.Combine(Server.MapPath("~/Images"),
                                                Path.GetFileName(file.FileName));
                     file.SaveAs(path);
-                    string filename= file.FileName;
+                    string filename = file.FileName;
                     ViewBag.Message = "File uploaded successfully";
-                    products.ProductPicture = "Images/"+ filename;
+                    products.ProductPicture = "Images/" + filename;
                     db.Products.Add(products);
                     db.SaveChanges();
                 }
@@ -71,10 +71,10 @@ namespace FoodWeb.Controllers
             else
             {
                 ViewBag.Message = "You have not specified a file.";
-            } 
+            }
             return View();
         }
-    
+
         [HttpGet]
         public ActionResult EditProduct(int id)
         {
@@ -100,7 +100,7 @@ namespace FoodWeb.Controllers
                     return RedirectToAction("LoginAdmin", "Admin");
                 }
             }
-            
+
         }
         [HttpPost]
         public ActionResult EditProduct(HttpPostedFileBase file, Products products)
@@ -147,9 +147,9 @@ namespace FoodWeb.Controllers
                     return RedirectToAction("LoginAdmin", "Admin");
                 }
             }
-           
+
         }
-  
+
         public ActionResult addToCart(int? Id)
         {
             var adminInCookie = Request.Cookies["AdminInfo"];
@@ -171,7 +171,7 @@ namespace FoodWeb.Controllers
                     return RedirectToAction("Login", "User");
                 }
             }
-        
+
         }
 
         List<Cart> li = new List<Cart>();
@@ -197,21 +197,21 @@ namespace FoodWeb.Controllers
                 }
                 else
                 {
-                    //List<Cart> li2 = TempData["cart"] as List<Cart>;
-                    //li2.Add(cart);
-                    //TempData["cart"] = li2;
+                    List<Cart> li2 = TempData["cart"] as List<Cart>;
+                    li2.Add(cart);
+                    TempData["cart"] = li2;
                     List<Cart> li2 = TempData["cart"] as List<Cart>;
                     int flag = 0;
-                    foreach(var item in li2)
+                    foreach (var item in li2)
                     {
-                        if(item.productId == cart.productId)
+                        if (item.productId == cart.productId)
                         {
                             item.qty += cart.qty;
                             item.bill += cart.bill;
                             flag = 1;
                         }
                     }
-                    if(flag==0)
+                    if (flag == 0)
                     {
                         li2.Add(cart);
                     }
@@ -261,7 +261,7 @@ namespace FoodWeb.Controllers
                 }
             }
 
-           
+
         }
         [HttpPost]
         public ActionResult Checkout(Order order)
@@ -275,7 +275,7 @@ namespace FoodWeb.Controllers
             invoice.Total_Bill = (float)TempData["Total"];
             db.invoiceModel.Add(invoice);
             db.SaveChanges();
-            foreach(var item in li)
+            foreach (var item in li)
             {
                 Order odr = new Order();
                 odr.FkProdId = item.productId;
@@ -298,7 +298,30 @@ namespace FoodWeb.Controllers
             Cart c = li2.Where(x => x.productId == id).SingleOrDefault();
             li2.Remove(c);
             float h = 0;
-            foreach(var item in li2)
+            foreach (var item in li2)
+            {
+                h += item.bill;
+            }
+            TempData["total"] = h;
+            return RedirectToAction("Checkout");
+        }
+
+        public ActionResult editCheckOut(int? id)
+        {
+
+        }
+
+        public ActionResult RemoveAll()
+        {
+            List<Cart> li2 = TempData["cart"] as List<Cart>;
+            foreach (var item in li2)
+            {
+                li2.Remove(item.SingleOrDefault());
+            }
+            //Cart c = li2.Where(x => x.productId == id).SingleOrDefault();
+            //li2.Remove(c);
+            float h = 0;
+            foreach (var item in li2)
             {
                 h += item.bill;
             }

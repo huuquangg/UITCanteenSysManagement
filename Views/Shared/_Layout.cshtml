@@ -55,12 +55,11 @@
                                     @if (userInCookie != null)
                                     {
                                         string User_id = string.Empty;
-                                        string name = string.Empty;
                                         string email = string.Empty;
-                                        name = userInCookie["FullName"].ToString();
                                         email = userInCookie["Email"].ToString();
+                                        User_id = userInCookie["idUser"].ToString();
+
                                         <li>@User_id</li>
-                                        <li>Name: @name</li>
                                         <li>Email: @email</li>
                                         <li><a href="@Url.Action("Logout","User")" class="btn">Đăng xuất</a></li>
                                     }
@@ -124,9 +123,10 @@
                                 }
                                 @if (usersInCookie != null)
                                 {
-                                    string User_id = string.Empty;
-                                    User_id = userInCookie["idUser"].ToString();
-                                    <li>@User_id</li>
+                                    string User_name = string.Empty;
+                                    User_name = userInCookie["FullName"].ToString();
+                                   
+                                    <li>@User_name</li>
                                 }
                                 else
                                 {
