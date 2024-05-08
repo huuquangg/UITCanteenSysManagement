@@ -12,4 +12,3 @@ Tools & Technologies:
 
 ## Food Menu
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3adf1ed4-c9bf-44d7-91db-81fc9200ea1f/e4bf5d78-8510-4860-9f82-c1bcd52a8707/Untitled.png)
