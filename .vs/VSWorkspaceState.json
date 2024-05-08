@@ -7,6 +7,6 @@
     "\\Views\\Shared",
     "\\Views\\User"
   ],
-  "SelectedNode": "\\Controllers\\ProductsController.cs",
+  "SelectedNode": "\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
