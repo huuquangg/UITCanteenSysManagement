@@ -11,19 +11,19 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-content">
-                        <h5 class="section-content__title">Giỏ hàng của bạn</h5>
+                        <h5 class="section-content__title">Your cart</h5>
                     </div>
                     <!-- Start Cart Table -->
                     <div class="table-content table-responsive cart-table-content m-t-30">
                         <table>
                             <thead class="gray-bg">
                                 <tr>
-                                    <th>Ảnh</th>
-                                    <th>Tên Món</th>
-                                    <th>Đơn Giá</th>
-                                    <th>SL</th>
-                                    <th>Thành giá</th>
-                                    <th>Tùy chỉnh</th>
+                                    <th>Food</th>
+                                    <th>Food name</th>
+                                    <th>Unit price</th>
+                                    <th>Amount</th>
+                                    <th>Total</th>
+                                    <th>Edit</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -64,7 +64,7 @@
                             {
                                 using (Html.BeginForm())
                                 {
-                                    <a href="@Url.Action("RemoveAll","Products")" class="btn btn--box btn--large btn--radius btn--black btn--black-hover-green btn--uppercase font--bold m-t-20">Xóa hết</a>
+                                    <a href="@Url.Action("RemoveAll","Products")" class="btn btn--box btn--large btn--radius btn--black btn--black-hover-green btn--uppercase font--bold m-t-20">Delete all</a>
                                     <input type="submit" class="btn btn--box btn--large btn--radius btn--green btn--green-hover-black btn--uppercase font--bold m-t-20 m-r-20" value="ĐẶT HÀNG">
                                 }
                             }
@@ -81,7 +81,7 @@ else
     <main id="main-container" class="main-container">
         <div class="container">
             <div class="row">
-                <h1>Giỏ hàng đang trống</h1>
+                <h1>Your cart is emty!!!</h1>
             </div>
         </div>
     </main>

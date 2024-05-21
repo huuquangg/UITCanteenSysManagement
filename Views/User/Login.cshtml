@@ -10,19 +10,18 @@
         <div class="row">
             <div class="col-12">
                 <div class="section-content m-b-40">
-                    <h5 class="section-content__title text-center">Đăng nhập</h5>
+                    <h5 class="section-content__title text-center">Login</h5>
                 </div>
             </div>
             <div class="col-lg-6 col-12">
                 <div class="login-form-container">
-                    <h5 class="sidebar__title">Đăng nhập liền</h5>
+                    <h5 class="sidebar__title">Login</h5>
                     @using (Html.BeginForm("Login", "User", FormMethod.Post))
                     {
                         @Html.AntiForgeryToken()
                         <div class="login-register-form">
                             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                             <div class="text-danger">
-                                @*"Tài khoản hoặc mật khẩu không chính xác. Vui lòng thử lại"*@
                             </div>
                             <form>
 
@@ -42,16 +41,16 @@
                                 <div class="d-flex justify-content-between flex-wrap m-tb-20">
                                     <label for="account-remember">
                                         <input type="checkbox" name="account-remember" id="account-remember">
-                                        <span>Ghi nhớ đăng nhập</span>
+                                        <span>Remember me</span>
                                     </label>
-                                    <a class="link--gray" href="">Quên mật khẩu?</a>
+                                    <a class="link--gray" href="">Forgot Password?</a>
                                 </div>
-                                <button class="btn btn--box btn--medium btn--radius btn--black btn--black-hover-green btn--uppercase font--semi-bold" type="submit">Đăng nhập</button>
+                                <button class="btn btn--box btn--medium btn--radius btn--black btn--black-hover-green btn--uppercase font--semi-bold" type="submit">Login</button>
                             </form>
                         </div>
                     }
                     <br>
-                    <a class="link--gray" href="@Url.Action("Signup","User")">Bạn chưa có tài khoản? Đăng ký liền tại đây.</a>
+                    <a class="link--gray" href="@Url.Action("Signup","User")">Do you have an account? Sign up now.</a>
                 </div>
             </div>
         </div>

@@ -45,7 +45,7 @@
                         <div class="col-12">
                             <div class="header__top-content d-flex justify-content-between align-items-center">
                                 <div class="header__top-content--left">
-                                    <span>UIT Canteen: Ngon như cơm mẹ nấu</span>
+                                    <span>UIT Canteen: Delicous like mom's cook</span>
                                 </div>
                                 <ul class="header__top-content--right user-set-role d-flex">
 
@@ -61,7 +61,7 @@
 
                                         <li>@User_id</li>
                                         <li>Email: @email</li>
-                                        <li><a href="@Url.Action("Logout","User")" class="btn">Đăng xuất</a></li>
+                                        <li><a href="@Url.Action("Logout","User")" class="btn">Log out</a></li>
                                     }
                                 </ul>
                             </div>
@@ -86,31 +86,31 @@
                                     <ul class="header__nav">
                                         <!--Start Single Nav link-->
                                         <li class="header__nav-item pos-relative">
-                                            <a href="/HomePageTest/Index" class="header__nav-link">Trang Chủ</a>
+                                            <a href="/HomePageTest/Index" class="header__nav-link">Home</a>
                                         </li> <!-- End Single Nav link-->
                                         <!--Start Single Nav link-->
                                         <li class="header__nav-item pos-relative header__nav-link">
-                                            <a href="/Products/Index" class="header__nav-link">Món Ăn</a>
+                                            <a href="/Products/Index" class="header__nav-link">Menu</a>
                                         </li> <!-- Start Single Nav link-->
                                         <!--Start Single Nav link-->
                                         <!--Start Single Nav link-->
                                         <li class="header__nav-item pos-relative">
-                                            <a href="/Information/Blogs" class="header__nav-link">Hoạt động</a>
+                                            <a href="/Information/Blogs" class="header__nav-link">Blogs</a>
 
                                         </li> <!-- End Single Nav link-->
                                         <!--Start Single Nav link-->
                                         <li class="header__nav-item pos-relative">
-                                            <a href="/Information/ContactUs" class="header__nav-link">Phản hồi</a>
+                                            <a href="/Information/ContactUs" class="header__nav-link">Feedbacks</a>
 
                                         </li> <!-- End Single Nav link-->
                                         <!--Start Single Nav link-->
                                         <li class="header__nav-item pos-relative">
-                                            <a href="/Information/AboutUs" class="header__nav-link">Về Nhóm</a>
+                                            <a href="/Information/AboutUs" class="header__nav-link">About us</a>
 
                                         </li> <!-- End Single Nav link-->
 
                                         <li class="header__nav-item pos-relative">
-                                            <a href="/Products/Checkout" class="header__nav-link">Thanh Toán</a>
+                                            <a href="/Products/Checkout" class="header__nav-link">Check out</a>
                                         </li> <!-- Start Single Nav link-->
                                     </ul>
                                 </nav>
@@ -131,7 +131,7 @@
                                 else
                                 {
                                     <li class="btn btn--medium btn--radius btn--black-hover-green font--bold text-uppercase">
-                                        @Html.ActionLink("Đăng nhập", "Login", "User")
+                                        @Html.ActionLink("Login", "Login", "User")
                                     </li>
                                 }
                                 <!-- Start Header Add Cart Box -->
@@ -152,28 +152,28 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-xl-3 col-lg-3">
                             <div class="header-menu-vertical pos-relative">
-                                <h4 class="menu-title link--icon-left"><i class="far fa-align-left"></i>Điều hướng</h4>
+                                <h4 class="menu-title link--icon-left"><i class="far fa-align-left"></i>Navigation</h4>
                                 <ul class="menu-content pos-absolute">
-                                    <li class="menu-item"><a href="/Products/Index"> Món ăn</a></li>
-                                    <li class="menu-item"><a href="/Products/Checkout"> Thanh toán</a></li>
-                                    <li class="menu-item"><a href="/Information/Blogs"> Hoạt động</a></li>
-                                    <li class="menu-item"><a href="/Information/ContactUs"> Phản hồi</a></li>
-                                    <li class="menu-item"><a href="/Information/AboutUs"> Về nhóm của mình</a></li>
-                                    <li class="menu-item"><a href="@Url.Action("Login","User")"> Đăng nhập</a></li>
-                                    <li class="menu-item"><a href="@Url.Action("Signup","User")"> Đăng ký ngay</a></li>
+                                    <li class="menu-item"><a href="/Products/Index">Menu</a></li>
+                                    <li class="menu-item"><a href="/Products/Checkout"> Check out</a></li>
+                                    <li class="menu-item"><a href="/Information/Blogs"> Blogs</a></li>
+                                    <li class="menu-item"><a href="/Information/ContactUs"> Feedbacks</a></li>
+                                    <li class="menu-item"><a href="/Information/AboutUs"> AboutUs</a></li>
+                                    <li class="menu-item"><a href="@Url.Action("Login","User")"> Login</a></li>
+                                    <li class="menu-item"><a href="@Url.Action("Signup","User")"> Sign up</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <form class="header-search" action="#" method="post">
                                 <div class="header-search__content pos-relative">
-                                    <input type="search" name="header-search" placeholder="Tìm món ăn" required>
+                                    <input type="search" name="header-search" placeholder="Search your food" required>
                                     <button class="pos-absolute" type="submit"><i class="icon-search"></i></button>
                                 </div>
                             </form>
                         </div>
                         <div class="col-xl-2 col-lg-3">
-                            <div class="header-phone text-right"><span>Gọi ngay: 123 456789</span></div>
+                            <div class="header-phone text-right"><span>Contact us: 123 456789</span></div>
                         </div>
                     </div>
                 </div>
@@ -211,15 +211,15 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="header-menu-vertical pos-relative m-t-30">
-                            <h4 class="menu-title link--icon-left"><i class="far fa-align-left"></i>Điều hướng</h4>
+                            <h4 class="menu-title link--icon-left"><i class="far fa-align-left"></i>Navigation</h4>
                             <ul class="menu-content pos-absolute">
-                                <li class="menu-item"><a href="/Products/Index"> Món ăn</a></li>
-                                <li class="menu-item"><a href="/Products/Checkout"> Giỏ hàng</a></li>
+                                <li class="menu-item"><a href="/Products/Index">Menu</a></li>
+                                <li class="menu-item"><a href="/Products/Checkout">Checkout</a></li>
                                 <li class="menu-item"><a href="/Information/Blogs"> Blog</a></li>
-                                <li class="menu-item"><a href="/Information/ContactUs"> Liên hệ</a></li>
-                                <li class="menu-item"><a href="/Information/AboutUs"> Về nhóm</a></li>
-                                <li class="menu-item"><a href="@Url.Action("Login","User")"> Đăng Nhập</a></li>
-                                <li class="menu-item"><a href="@Url.Action("Signup","User")"> Đăng ký</a></li>
+                                <li class="menu-item"><a href="/Information/ContactUs"> ContactUs</a></li>
+                                <li class="menu-item"><a href="/Information/AboutUs">AboutUs</a></li>
+                                <li class="menu-item"><a href="@Url.Action("Login","User")"> Login</a></li>
+                                <li class="menu-item"><a href="@Url.Action("Signup","User")"> Signup</a></li>
                             </ul>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
 
                 <form class="header-search m-tb-15" action="#" method="post">
                     <div class="header-search__content pos-relative">
-                        <input type="search" name="header-search" placeholder="Tìm món ăn" required>
+                        <input type="search" name="header-search" placeholder="Search" required>
                         <button class="pos-absolute" type="submit"><i class="icon-search"></i></button>
                     </div>
                 </form>
@@ -266,17 +266,17 @@
                 </ul>  <!-- End Mobile User Action -->
                 <div class="offcanvas-menu">
                     <ul>
-                        <li><a href="/HomePageTest/Index"><span>Trang chủ</span></a></li>
+                        <li><a href="/HomePageTest/Index"><span>Home</span></a></li>
                         <li>
-                            <a href="/Products/Index"><span>Món ăn</span></a>
+                            <a href="/Products/Index"><span>Menu</span></a>
                         </li>
                         <li>
                             <a href="/Information/Blogs"><span>Blogs</span></a>
                         </li>
                         <li>
-                            <a href="/Information/AboutUs"><span>Về nhóm bọn tớ</span></a>
+                            <a href="/Information/AboutUs"><span>AboutUs</span></a>
                         </li>
-                        <li><a href="/Information/ContactUs">Đặt hàng</a></li>
+                        <li><a href="/Information/ContactUs">Feedbacks</a></li>
                     </ul>
                 </div>
             </div>
@@ -327,9 +327,9 @@
                         <div class="col-lg-2 col-md-3 col-sm-6 col-12">
                             <!-- Start Footer Nav -->
                             <div class="footer__menu">
-                                <h4 class="footer__nav-title footer__nav-title--dash footer__nav-title--dash-red">Thông tin</h4>
+                                <h4 class="footer__nav-title footer__nav-title--dash footer__nav-title--dash-red">More Information</h4>
                                 <ul class="footer__nav">
-                                    <li class="footer__list"><a href="/Products/Index" class="footer__link">Món ăn</a></li>
+                                    <li class="footer__list"><a href="/Products/Index" class="footer__link">Menu</a></li>
                                     <li class="footer__list"><a href="@Url.Action("LoginAdmin","Admin")" class="footer__link">Admin</a></li>
                                 </ul>
                             </div> <!-- End Footer Nav -->
@@ -342,7 +342,7 @@
                         <div class="col-lg-8 col-md-6 col-12">
                             <!-- Start Footer Copyright Text -->
                             <div class="footer__copyright-text">
-                                <a href="@Url.Action("LoginAdmin","Admin")">Trang Admin</a>
+                                <a href="@Url.Action("LoginAdmin","Admin")">Admin Page</a>
                                 <p>&copy; @DateTime.Now.Year - UIT Copy right</p>
                             </div> <!-- End Footer Copyright Text -->
                         </div>
