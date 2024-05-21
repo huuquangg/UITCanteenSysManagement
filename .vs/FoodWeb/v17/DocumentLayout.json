@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\views\\shared\\_layoutadminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\shared\\_layoutadminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|e:\\university\\vi oosad\\repo\\testclone\\uitcanteensysmanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\views\\products\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2E2310C-CB63-4EED-AD48-1DA8C38847B6}|FoodWeb.csproj|solutionrelative:views\\products\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +24,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIgAAABCAAAA",
+              "ViewState": "AQIAAGsBAAAAAAAAAAAAAHIBAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-16T10:03:05.884Z",
               "IsPinned": true,
@@ -57,71 +37,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutAdminPage.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Shared\\_LayoutAdminPage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdminPage.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Shared\\_LayoutAdminPage.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutAdminPage.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T15:08:20.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:07:59.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAMBcwDQAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T15:46:20.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAACUBAAAAAAAAAIAwwC0BAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T04:50:38.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Products\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Checkout.cshtml",
-              "ToolTip": "E:\\University\\VI OOSAD\\repo\\tESTcLONE\\UITCanteenSysManagement\\Views\\Products\\Checkout.cshtml",
-              "RelativeToolTip": "Views\\Products\\Checkout.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAEBhwAMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:47:59.15Z",
-              "EditorCaption": ""
             }
           ]
         }
