@@ -17,8 +17,9 @@ namespace FoodWeb.Controllers
         {
             List<Products> products = db.Products.ToList<Products>();
             return View(products);
-
         }
+
+
         [HttpGet]
         public ActionResult Delete(int id)
         {
@@ -328,5 +329,7 @@ namespace FoodWeb.Controllers
             TempData["total"] = h;
             return RedirectToAction("Checkout");
         }
+
+      
     }
 }

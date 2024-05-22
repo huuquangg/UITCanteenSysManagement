@@ -125,7 +125,7 @@
                                 {
                                     string User_name = string.Empty;
                                     User_name = userInCookie["FullName"].ToString();
-                                   
+
                                     <li>@User_name</li>
                                 }
                                 else
@@ -150,6 +150,8 @@
             <div class="header__bottom p-tb-30">
                 <div class="container">
                     <div class="row justify-content-between align-items-center">
+                        <!-- Navigation Table to dropdown -->
+
                         <div class="col-xl-3 col-lg-3">
                             <div class="header-menu-vertical pos-relative">
                                 <h4 class="menu-title link--icon-left"><i class="far fa-align-left"></i>Navigation</h4>
@@ -164,10 +166,12 @@
                                 </ul>
                             </div>
                         </div>
+
                         <div class="col-xl-7 col-lg-6">
-                            <form class="header-search" action="#" method="post">
+                            @*<form class="header-search" action="/Products/Index" method="get">*@
+                            <form class="header-search" asp-action="#" method="get">
                                 <div class="header-search__content pos-relative">
-                                    <input type="search" name="header-search" placeholder="Search your food" required>
+                                    <input class="form-control" id="myInput" type="text" placeholder="Search for..." required />
                                     <button class="pos-absolute" type="submit"><i class="icon-search"></i></button>
                                 </div>
                             </form>
@@ -175,6 +179,7 @@
                         <div class="col-xl-2 col-lg-3">
                             <div class="header-phone text-right"><span>Contact us: 123 456789</span></div>
                         </div>
+
                     </div>
                 </div>
             </div> <!-- End Header bottom area -->
@@ -235,12 +240,15 @@
 
             <div class="offcanvas-inner">
 
-                <form class="header-search m-tb-15" action="#" method="post">
+                @*<form class="header-search m-tb-15" action="" method="get">*@
+                <form class="header-search" asp-action="#" method="get">
                     <div class="header-search__content pos-relative">
                         <input type="search" name="header-search" placeholder="Search" required>
+                        <input class="form-control" type="text" placeholder="Search for..." />
                         <button class="pos-absolute" type="submit"><i class="icon-search"></i></button>
                     </div>
                 </form>
+
                 <!-- Start Mobile User Action -->
                 <ul class="header__user-action-icon m-tb-15 text-center">
                     <!-- Start Header Wishlist Box -->
@@ -379,6 +387,28 @@
     <!-- <script src="~/Content/assets/js/vendor/vendor.min.js"></script>
     <script src="~/Content/assets/js/plugin/plugins.min.js"></script> -->
     <!-- Main js file that contents all jQuery plugins activation. -->
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
+
+        $(document).ready(function () {
+            // the hidden row always hidden until user searching
+            $("#hiddenRow").hide();
+            $("#myInput").click(function () {
+                $("#hiddenRow").toggle();
+            })
+        });
+    </script>
+
+
+
     <script src="~/Content/assets/js/main.js"></script>
 </body>
 

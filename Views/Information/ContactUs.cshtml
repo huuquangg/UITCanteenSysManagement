@@ -81,7 +81,7 @@
                                 <div class="col-lg-6">
                                     <div class="form-box__single-group">
 
-                                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @placeholder = "Tên" } })
+                                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @placeholder = "Name" } })
                                         @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
                                     </div>
                                 </div>
@@ -93,13 +93,13 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-box__single-group">
-                                        @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @placeholder = "Chủ đề" } })
+                                        @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @placeholder = "Problems" } })
                                         @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-box__single-group">
-                                        @Html.TextAreaFor(model => model.Message, new { htmlAttributes = new { @placeholder = "Lời nhắn" } })
+                                        @Html.TextAreaFor(model => model.Message, new { htmlAttributes = new { @placeholder = "Your Feedbacks" } })
                                         @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
                                     </div>
                                     <button class="btn btn--box btn--medium btn--radius-tiny btn--black btn--black-hover-green btn--uppercase font--bold m-t-30" type="submit">Send!</button>
