@@ -25,7 +25,7 @@
                         <h3 class="box-title">Products List</h3>
                         <div class="box-tools">
                             <div class="input-group">
-                                <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search" />
+                                <input id="myInputAdmin" type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search" />
                                 <div class="input-group-btn">
                                     <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
                                 </div>
@@ -34,26 +34,31 @@
                     </div><!-- /.box-header -->
                     <div class="box-body table-responsive no-padding">
                         <table class="table table-hover">
-                            <tr>
-                                <th>@Html.DisplayNameFor(model => model.ProductName)</th>
-                                <th>@Html.DisplayNameFor(model => model.ProductPrice)</th>
-                                <th>@Html.DisplayNameFor(model => model.ProductPicture)</th>
-                            </tr>
-                       @foreach (var item in Model)
-                        {
+                            <thead>
                                 <tr>
-                                    <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
-                                    <td><span class="label label-success">@Html.DisplayFor(modelItem => item.ProductPrice)</span></td>
-                                    <td><img class="product__img img-fluid" sty" width="200" height="200" src="~/@Html.DisplayFor(modelItem => item.ProductPicture)" alt=""></td>
-                                    
-                                    <td>
-                                        <button class="btn btn-block btn-success" >@Html.ActionLink("Edit", "EditProduct", new { id = item.id } , htmlAttributes: new { @class = "clbtn" })</button>
-                                        <button class="btn btn-block btn-info">@Html.ActionLink("Details", "Details", new { id = item.id })</button>
-                                        <button class="btn btn-block btn-danger">@Html.ActionLink("Delete", "Delete", new { id = item.id })</button>
-                                        
-                                    </td>
+                                    <th>@Html.DisplayNameFor(model => model.ProductName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.ProductPrice)</th>
+                                    <th>@Html.DisplayNameFor(model => model.ProductPicture)</th>
                                 </tr>
-                       }
+                            </thead>
+                            <tbody id="myTableAdmin">
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                                        <td><span class="label label-success">@Html.DisplayFor(modelItem => item.ProductPrice)</span></td>
+                                        <td><img class="product__img img-fluid" sty" width="200" height="200" src="~/@Html.DisplayFor(modelItem => item.ProductPicture)" alt=""></td>
+
+                                        <td>
+                                            <button class="btn btn-block btn-success">@Html.ActionLink("Edit", "EditProduct", new { id = item.id }, htmlAttributes: new { @class = "clbtn" })</button>
+                                            <button class="btn btn-block btn-info">@Html.ActionLink("Details", "Details", new { id = item.id })</button>
+                                            <button class="btn btn-block btn-danger">@Html.ActionLink("Delete", "Delete", new { id = item.id })</button>
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
                         </table>
                     </div><!-- /.box-body -->
                 </div><!-- /.box -->

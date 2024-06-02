@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\App_Start",
-    "\\Controllers",
     "\\Views",
     "\\Views\\Products",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\FoodWeb.sln",
+  "SelectedNode": "\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

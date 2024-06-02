@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<FoodWeb.Models.Order>
 
+
 @{
     ViewBag.Title = "ListOfOrders";
     Layout = "~/Views/Shared/_LayoutAdminPage.cshtml";
@@ -18,7 +19,7 @@
     <section class="content">
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <!-- TABLE: LATEST ORDERS -->
                 <div class="box box-info">
                     <div class="box-header with-border">
@@ -34,29 +35,46 @@
                                 <thead>
                                     <tr>
                                         <th>Order ID</th>
+                                        <th>User name</th>
                                         <th>Item Name</th>
+                                        <th>Order Date</th>
                                         <th>Quantity</th>
                                         <th>Unit Price</th>
                                         <th>Sub Total</th>
-                                        <th>Order Date</th>
+                                        <th>Order Status</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model)
+                                    @foreach (var item in Model.Reverse())
                                     {
                                         <tr>
                                             <td>@Html.DisplayFor(modelItem => item.invoices.ID)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.invoices.user.Name)</td>
+
                                             <td>@Html.DisplayFor(modelItem => item.prodcts.ProductName)</td>
-                                            <td><span class="label label-success">@Html.DisplayFor(modelItem => item.Qty)</span></td>
+                                            <td>@Html.DisplayFor(modelItem => item.Order_Date)</td>
+                                            <td><span>@Html.DisplayFor(modelItem => item.Qty)</span></td>
                                             <td>@Html.DisplayFor(modelItem => item.Unit_Price)</td>
                                             <td>@Html.DisplayFor(modelItem => item.Order_Bill)</td>
-                                            <td>@Html.DisplayFor(modelItem => item.Order_Date)</td>
+                                            <td>
+                                                <span>
+                                                    <select class="label label-default" name="OrderStatus" id="OrderStatus">
+                                                        <option>Preparing</option>
+                                                        <option>On Way</option>
+                                                        <option>Done</option>
+                                                    </select>
+
+                                                </span>
+                                            </td>
                                         </tr>
                                     }
-                                    </tbody>
+                                </tbody>
                             </table>
+
                         </div><!-- /.table-responsive -->
                     </div><!-- /.box-body -->
+
+
                     <div class="box-footer clearfix">
                         <h2 class="pull-right">Total: @TempData["OrderTotal"]</h2>
                     </div><!-- /.box-footer -->
